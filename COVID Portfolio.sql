@@ -1,7 +1,3 @@
--- SELECT STATEMENTS (WHEN NEEDED)
-SELECT * FROM CovidDeaths WHERE location = 'Iraq' OR LOCATION = 'Kuwait' OR location = 'Germany' AND date BETWEEN '2022-02-22' AND '2020-03-22';
-SELECT total_population FROM CovidDeaths;
-
 -- QUERY 1: TOTAL CASES VS. TOTAL DEATHS
 SELECT
 	LOCATION,
